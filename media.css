@@ -1,0 +1,156 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media (max-width: 991px){
+    body{
+        font-size: 12px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main_services_header{
+     padding: 3vh;   
+    }   
+    .main_services_divs{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_services_div{
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    .main_about_header{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .main_about_par{
+        line-height: 2em;
+    }
+    .dev1 img,.dev img{
+        width: 265px;
+    }
+    
+    .visible-lg{
+		display: none;
+	}
+	.m-menu-link{
+		display: block;
+        position: absolute;
+        left: 85%;
+		color: #fff;
+		font-size: 3rem; 
+	}
+    
+    .m-menu-link a{
+        color: #fff;
+    }
+    
+    .menu-link{
+        color: #fff;
+    }
+    
+    
+    #slider, #slider_btn{
+        display: none;
+    }
+    
+    .meetings{
+        flex-direction: column;
+    }
+    
+    .meetings_image img{
+        width: 100%;
+    }
+    
+    .brands_logos{
+        flex-direction: column;
+    }
+    
+    .brand_logo_n{
+        margin: 2rem auto;
+    }
+    
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .main_services_header{
+     padding: 3vh;   
+    }   
+    .main_services_divs{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_services_div{
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    .main_about_header{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .main_about_par{
+        line-height: 2em;
+    }
+    .dev1 img,.dev img{
+        width: 265px;
+    }
+    
+    .visible-lg{
+		display: none;
+	}
+	.m-menu-link{
+		display: block;
+        position: absolute;
+        left: 85%;
+		color: #fff;
+		font-size: 3rem; 
+	}
+    
+    .m-menu-link a{
+        color: #fff;
+    }
+    
+    .menu-link{
+        color: #fff;
+    }
+    
+    #slider, #slider_btn{
+        display: none;
+    }
+    
+    .meetings{
+        flex-direction: column;
+    }
+    
+    .meetings_image img{
+        width: 100%;
+    }
+    
+    .brands_logos{
+        flex-direction: column;
+    }
+    
+    .brand_logo_n{
+        margin: 2rem auto;
+    }
+    
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+}

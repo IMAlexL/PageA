@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Verdana, 'sans-serif';
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background: url(Home-Background.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+
+.header_logo, .header_nav{
+    padding: 3% 0;
+}
+
+.header_logo{
+    float: left;
+    width: 40%;
+    font-size: 1.4em;
+    font-weight: 300;
+    
+}
+
+.header_nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav ul li{
+    list-style: none;
+}
+
+.header_nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header_nav ul li a:hover{
+    color: orange;
+}
+
+.header_main{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 4em;
+    
+}
+
+.header_main h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+#header_btn{
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#header_btn:hover{
+    background: orange;
+}
+
+.main_services{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.header_main_next{
+    text-align: center;
+    color: #808080;
+}
+
+.header_main_next h2{
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.header_main_next hr{
+    width: 60px;
+    height: 2px;
+    background-color: #808080;
+    margin: 3% auto;
+}
+
+.main_services_divs{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.main_services_div{
+    color: #808080;
+    line-height: 1.5em;
+}
+
+.main_services_div h3{
+    padding: 4% 0;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.main_services_div p{
+    font-size: .8em;
+}
+
+.main_about{
+    background: #f8f8f8;
+    padding: 5% 0;
+}
+
+.main_about_par{
+    color: #808080;
+    text-align: center;
+    margin: 3% auto;
+    font-size: .8em;
+    line-height: 2em;
+}
+
+.participants{
+    display: none;
+}
+
+#slider{
+    width: 864px;
+    height: 250px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#slider_participants{
+    width: 1728px;
+    position: relative;
+    transition: all ease 1s;
+    left: 0;
+}
+
+#slider_participants::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.dev, .dev1{
+    height: 250px;
+    float: left;
+    position: relative;
+    font-size: .8em;
+    text-align: center;
+    padding: 2px 8px;
+    text-decoration: none;
+    color: #808080;
+}
+
+#slider_social{
+    position: absolute;
+   
+}
+
+.dev img, .dev1 img{
+    width: 200px;
+    height: 200px;
+}
+
+#slider_btn{
+    margin-left: 49%;
+    background: gray;
+    color: #fff;
+    border-radius: 100px;
+    padding: 5px 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.main_about_2{
+    margin: 5% 0;
+}
+
+.works_links a{
+    text-decoration: none;
+    color: #808080;
+    padding: 0 5px;
+}
+
+.works_links a:hover{
+    color: #d06455;
+}
+
+.works_examples{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% auto;
+    overflow: hidden;
+    
+}
+
+.example{
+    width: 33.33%;
+}
+
+.get_in_touch{
+    background: url(Layer-29.png) no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.get_in_touch_overlay{
+    background-color: rgb(192, 48, 28);
+    opacity: 0.6;
+    height: 50vh;
+    position: absolute;
+    width: 100%;
+}
+
+.get_in_touch_main{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 2em;
+    color: #fff;
+}
+
+.get_in_touch_main h2{
+    font-weight: 300;
+    padding-bottom: 10%;
+}
+
+#touch_btn{
+    text-transform: uppercase;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+   
+}
+
+#touch_btn:hover{
+    background: orange;
+}
+
+.meetings{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.meetings_info{
+}
+
+.meetings_info a{
+    text-decoration: none;
+    color: #808080;
+}
+
+.meetings_info:hover mark {
+    color: #c0301c;
+}
+
+.meetings_info:hover h2{
+    color: #c0301c;
+}
+
+.meetings_info:hover .rm_link a{
+    color: #c0301c;
+}
+
+.meetings_info_date{
+    float: left;
+    padding: 15px 20px;
+    border: 2px solid #808080;
+    font-size: 1.5em;
+    margin-right: 4%;
+}
+
+.meetings_info_header{
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.meetings_info_header h2{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.meetings_info_header p{
+    font-style: italic;
+    margin: 2% 0;
+}
+
+.meetings_info_header p mark{
+    background: none;
+    color: #808080;
+}
+
+.meeting_description{
+    margin-left: 5%;
+    line-height: 1.5em;
+    font-size: .8em;
+}
+
+.rm_link{
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+.blog_posts_block{
+    margin: 5% 0;
+}
+
+.brands{
+    background: #f8f8f8;
+    padding: 5% 0;
+}
+
+.brands_logos{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+    align-items: center;
+}
+
+.quotes{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cite{
+    padding-top: 5%;
+}
+
+.quotes quote{
+    font-style: italic;
+    line-height: 2em;
+}
+
+.author{
+    padding-top: 5%;
+}
+
+.contact{
+    margin: 5% 0;
+}
+
+.contact_us_header{
+    margin-bottom: 5%;
+}
+
+.inf_f_u_head{
+    display: flex;
+}
+
+.inf_f_u{
+   
+    width: 100%;
+    margin: 8% 0;
+    line-height: 1.2em;
+}
+
+.inf_f_u h4{
+    text-transform: uppercase;
+    margin-bottom: 4%;
+    margin-left: 4%;
+}
+
+.inf_f_u i{
+    font-size: 25px;
+}
+
+.inf_f_u p{
+    font-size: .7em;
+}
+
+.form_information{
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+}
+
+.needaproject{
+    width: 70%;
+}
+
+.form_inputs input, .needaproject textarea{
+    margin: 2%;
+    
+}
+
+.form_inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_inputs input{
+   width: 35%;
+    height: 5vh;
+    border: 1px solid #ccc;
+}
+
+.needaproject textarea{
+    width: 74%;
+    height: 15vh;
+}
+
+.button_block{
+    align-items: center;
+    font-size: .8em;
+    display: flex;
+    margin: 2%; 
+}
+
+.button_block input{
+    text-transform: uppercase;
+    background: none;
+    color: #808080;
+    border: 1px solid #808080;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background: orange;
+    color: #fff;
+}
+
+.button_block p{
+    margin-left: 2%;
+}
+
+.button_block p mark{
+    color: #c0301c;
+    background: #fff;
+}
+
+.footer{
+    height: 30vh;
+    color: #fff;
+    width: 100%;
+    background: #c0301c;
+    position: relative;
+}
+
+.footer_content{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer_social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_social i{
+    border: 1px solid #fff;
+    border-radius: 100px; 
+    padding: 4px;
+}
+
+.footer_social a{
+    color: #fff;
+}
+
+.footer_content hr{
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    margin: 3% auto;
+    border: none;
+    margin: 8% auto;
+}
+
+.verify{
+    font-size: .8em;
+}
+
+.m-menu-link{
+    display: none;
+}
+
+.m-menu{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    font-size: 3rem;
+    line-height: 1.4em;
+    background-color: #c0301c;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-100%);
+    transition: 0.2s;
+}
+
+.close-menu{
+    position: fixed;
+    right: 5rem;
+    top: 0;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.close-menu:hover{
+    cursor: pointer;
+}
+
+.m-menu__active{
+    transform: translateX(0%);
+}
+
+.get-started-header{
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #808080;
+    border-radius: 10px;
+}
